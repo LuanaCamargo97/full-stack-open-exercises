@@ -1,16 +1,44 @@
-# React + Vite
+# 🚀 Full Stack Open - Exercises & Projects
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains all my solutions for the exercises, challenges, and practical projects from **Full Stack Open**, the renowned full-stack web development course provided by the University of Helsinki.
 
-Currently, two official plugins are available:
+The main goal of this project is to consolidate hands-on experience with JavaScript, TypeScript, and the modern React and Node.js ecosystem.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🛠️ Tech Stack & Tools
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Throughout this learning journey, I am utilizing industry-standard tools and technologies:
 
-## Expanding the ESLint configuration
+* **Development Environment:** Vite (Ultra-fast alternative to Create React App)
+* **Frontend Library:** React (utilizing hooks, state management, and modern component architecture)
+* **Programming Language:** JavaScript (ES6+) / TypeScript
+* **Code Quality:** ESLint for code formatting and best practices
+* **Version Control:** Git & GitHub (following the *Conventional Commits* specification)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Repository Structure
+
+The repository is organized by parts, following the official course curriculum. As I progress through the modules, new sections and directories will be structured here:
+
+* **`src/`** - Main source code where current applications reside.
+    * `App.jsx` - Root visual component.
+    * `main.jsx` - Entry point for React in the Vite environment.
+
+*(Note: In future modules, exercises will be organized into dedicated folders like `part1/`, `part2/`, etc., to manage multiple independent sub-applications).*
+
+---
+
+## 🏃‍♂️ How to Run the Project Locally
+
+To clone and run this application on your local machine, follow these steps:
+
+1. Clone the repository using SSH:
+` git clone git@github.com:your-username/full-stack-open-project.git `
+
+2. Install the required dependencies:
+` npm install ` 
+
+3. Start the Vite development serve:
+` npm run dev `
